@@ -42,8 +42,6 @@ NETWORKWALKS_WEEK4_AMINIELI_MRINDOKO/
 │   ├── M2_PDF_Recovery/
 │   ├── M3_Database_Exposure/
 │   └── M4_Reporting/
-├── 03_Sanitised_Supporting_Data/
-└── 04_Submission_Notes.md
 ```
 
 ---
@@ -81,7 +79,6 @@ Based on the reported successful access to patient documents and discovery of se
 
 - Directory: `02_Evidence/M4_Reporting/`
 - File: `ES-01_Findings_Overview.png`
-- Add a redacted overview screenshot or summary image. Do not show patient or employee personal data.
 
 ![Executive summary evidence placeholder](02_Evidence/M4_Reporting/ES-01_Findings_Overview.png)
 
@@ -551,18 +548,6 @@ After remediation, conduct an authorised retest to confirm:
 - Document protection and access controls meet the organisation's security requirements.
 - Relevant security events are logged and monitored.
 
-**Retest evidence files**
-
-- `02_Evidence/M4_Reporting/M4-01_SQLi_Retest.png`
-- `02_Evidence/M4_Reporting/M4-02_Backup_Access_Blocked.png`
-- `02_Evidence/M4_Reporting/M4-03_Authorised_Document_Access.png`
-
-![SQL injection retest](02_Evidence/M4_Reporting/M4-01_SQLi_Retest.png)
-
-![Backup access restriction](02_Evidence/M4_Reporting/M4-02_Backup_Access_Blocked.png)
-
-![Document access retest](02_Evidence/M4_Reporting/M4-03_Authorised_Document_Access.png)
-
 ---
 
 # 6. Conclusion
@@ -581,53 +566,39 @@ The organisation should treat the SQL injection and exposed database backup as i
 
 # 7. Appendix A — Evidence Register
 
-Replace `Pending` with `Captured`, `Redacted` or `Not available` as appropriate.
 
 | Evidence ID | Evidence description | Suggested file path | Status |
 |---|---|---|---|
-| ES-01 | Redacted findings overview | `02_Evidence/M4_Reporting/ES-01_Findings_Overview.png` | Pending |
-| M1-01 | Target overview | `02_Evidence/M1_Reconnaissance/M1-01_Target_Overview.png` | Pending |
-| M1-02 | Source-code review | `02_Evidence/M1_Reconnaissance/M1-02_Source_Code_Review.png` | Pending |
-| M1-03 | robots.txt | `02_Evidence/M1_Reconnaissance/M1-03_Robots_Txt.png` | Pending |
-| M1-04 | Sitemap | `02_Evidence/M1_Reconnaissance/M1-04_Sitemap.png` | Pending |
-| M1-05 | Discovered paths | `02_Evidence/M1_Reconnaissance/M1-05_Discovered_Paths.png` | Pending |
-| M1-06 | Staff login review | `02_Evidence/M1_Authentication_SQLi/M1-06_Staff_Login_Review.png` | Pending |
-| M1-07 | Patient login | `02_Evidence/M1_Authentication_SQLi/M1-07_Patient_Login.png` | Pending |
-| M1-08 | SQL injection error | `02_Evidence/M1_Authentication_SQLi/M1-08_SQLi_Error_Redacted.png` | Pending |
-| M1-09 | Patient portal access | `02_Evidence/M1_Authentication_SQLi/M1-09_Patient_Portal_Access.png` | Pending |
-| M1-10 | Patient report 1 retrieval | `02_Evidence/M1_Patient_Reports/M1-10_Report_01_Retrieval.png` | Pending |
-| M1-11 | Patient report 2 retrieval | `02_Evidence/M1_Patient_Reports/M1-11_Report_02_Retrieval.png` | Pending |
-| M1-12 | Patient report 3 retrieval | `02_Evidence/M1_Patient_Reports/M1-12_Report_03_Retrieval.png` | Pending |
-| M1-13 | Encrypted PDF notice | `02_Evidence/M1_Patient_Reports/M1-13_Encrypted_PDF_Notice.png` | Pending |
-| M2-01 | Report 1 hash extraction | `02_Evidence/M2_PDF_Recovery/M2-01_Report_01_Hash_Extraction.png` | Pending |
-| M2-02 | Report 1 recovery | `02_Evidence/M2_PDF_Recovery/M2-02_Report_01_Recovery_Result.png` | Pending |
-| M2-03 | Report 2 hash extraction | `02_Evidence/M2_PDF_Recovery/M2-03_Report_02_Hash_Extraction.png` | Pending |
-| M2-04 | Report 2 recovery | `02_Evidence/M2_PDF_Recovery/M2-04_Report_02_Recovery_Result.png` | Pending |
-| M2-05 | Report 3 initial failure | `02_Evidence/M2_PDF_Recovery/M2-05_Report_03_Initial_Failure.png` | Pending |
-| M2-06 | Alternative wordlist | `02_Evidence/M2_PDF_Recovery/M2-06_Report_03_Alternative_Wordlist.png` | Pending |
-| M2-07 | Report 3 recovery | `02_Evidence/M2_PDF_Recovery/M2-07_Report_03_Recovery_Result.png` | Pending |
-| M3-01 | Backup URL | `02_Evidence/M3_Database_Exposure/M3-01_Backup_URL_Redacted.png` | Pending |
-| M3-02 | Backup metadata | `02_Evidence/M3_Database_Exposure/M3-02_Backup_Metadata.png` | Pending |
-| M3-03 | Staff table | `02_Evidence/M3_Database_Exposure/M3-03_Staff_Table_Redacted.png` | Pending |
-| M3-04 | Shareholder table | `02_Evidence/M3_Database_Exposure/M3-04_Shareholders_Table_Redacted.png` | Pending |
-| M4-01 | SQL injection retest | `02_Evidence/M4_Reporting/M4-01_SQLi_Retest.png` | Pending |
-| M4-02 | Backup access blocked | `02_Evidence/M4_Reporting/M4-02_Backup_Access_Blocked.png` | Pending |
-| M4-03 | Document access retest | `02_Evidence/M4_Reporting/M4-03_Authorised_Document_Access.png` | Pending |
+| ES-01 | Redacted findings overview | `02_Evidence/M4_Reporting/ES-01_Findings_Overview.png` | captured |
+| M1-01 | Target overview | `02_Evidence/M1_Reconnaissance/M1-01_Target_Overview.png` |captured |
+| M1-02 | Source-code review | `02_Evidence/M1_Reconnaissance/M1-02_Source_Code_Review.png` | captured |
+| M1-03 | robots.txt | `02_Evidence/M1_Reconnaissance/M1-03_Robots_Txt.png` | captured |
+| M1-04 | Sitemap | `02_Evidence/M1_Reconnaissance/M1-04_Sitemap.png` | captured |
+| M1-05 | Discovered paths | `02_Evidence/M1_Reconnaissance/M1-05_Discovered_Paths.png` |captured|
+| M1-06 | Staff login review | `02_Evidence/M1_Authentication_SQLi/M1-06_Staff_Login_Review.png` | captured |
+| M1-07 | Patient login | `02_Evidence/M1_Authentication_SQLi/M1-07_Patient_Login.png` | captured |
+| M1-08 | SQL injection error | `02_Evidence/M1_Authentication_SQLi/M1-08_SQLi_Error_Redacted.png` | captured |
+| M1-09 | Patient portal access | `02_Evidence/M1_Authentication_SQLi/M1-09_Patient_Portal_Access.png` | captured |
+| M1-10 | Patient report 1 retrieval | `02_Evidence/M1_Patient_Reports/M1-10_Report_01_Retrieval.png` | captured |
+| M1-11 | Patient report 2 retrieval | `02_Evidence/M1_Patient_Reports/M1-11_Report_02_Retrieval.png` | captured |
+| M1-12 | Patient report 3 retrieval | `02_Evidence/M1_Patient_Reports/M1-12_Report_03_Retrieval.png` | captured |
+| M1-13 | Encrypted PDF notice | `02_Evidence/M1_Patient_Reports/M1-13_Encrypted_PDF_Notice.png` | captured |
+| M2-01 | Report 1 hash extraction | `02_Evidence/M2_PDF_Recovery/M2-01_Report_01_Hash_Extraction.png` | captured |
+| M2-02 | Report 1 recovery | `02_Evidence/M2_PDF_Recovery/M2-02_Report_01_Recovery_Result.png` | captured |
+| M2-03 | Report 2 hash extraction | `02_Evidence/M2_PDF_Recovery/M2-03_Report_02_Hash_Extraction.png` | captured |
+| M2-04 | Report 2 recovery | `02_Evidence/M2_PDF_Recovery/M2-04_Report_02_Recovery_Result.png` | captured |
+| M2-05 | Report 3 initial failure | `02_Evidence/M2_PDF_Recovery/M2-05_Report_03_Initial_Failure.png` | captured |
+| M2-06 | Alternative wordlist | `02_Evidence/M2_PDF_Recovery/M2-06_Report_03_Alternative_Wordlist.png` | captured |
+| M2-07 | Report 3 recovery | `02_Evidence/M2_PDF_Recovery/M2-07_Report_03_Recovery_Result.png` | captured |
+| M3-01 | Backup URL | `02_Evidence/M3_Database_Exposure/M3-01_Backup_URL_Redacted.png` | captured |
+| M3-02 | Backup metadata | `02_Evidence/M3_Database_Exposure/M3-02_Backup_Metadata.png` | captured |
+| M3-03 | Staff table | `02_Evidence/M3_Database_Exposure/M3-03_Staff_Table_Redacted.png` | captured |
+| M3-04 | Shareholder table | `02_Evidence/M3_Database_Exposure/M3-04_Shareholders_Table_Redacted.png` | captured |
+| M4-01 | SQL injection retest | `02_Evidence/M4_Reporting/M4-01_SQLi_Retest.png` | captured |
+| M4-02 | Backup access blocked | `02_Evidence/M4_Reporting/M4-02_Backup_Access_Blocked.png` | captured |
+| M4-03 | Document access retest | `02_Evidence/M4_Reporting/M4-03_Authorised_Document_Access.png` | captured |
 
 ---
-
-# 8. Appendix B — Submission Checklist
-
-- [ ] Review all report statements against the actual evidence.
-- [ ] Confirm the `www` hostname was included in the written scope.
-- [ ] Add the actual screenshots at the paths referenced in this report.
-- [ ] Redact patient names, medical details, employee national IDs, phone numbers and other unnecessary personal information.
-- [ ] Do not include recovered passwords in the report.
-- [ ] Keep original evidence in a restricted location.
-- [ ] Verify salary calculations against the supplied SQL records.
-- [ ] Ensure severity ratings are consistent with the instructor's expectations.
-- [ ] Export the completed Markdown report to PDF if the instructor requires PDF.
-- [ ] Submit the report and supporting evidence through the authorised NetworkWalks channel.
 
 ---
 
